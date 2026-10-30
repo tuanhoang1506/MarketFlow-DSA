@@ -1,21 +1,7 @@
-================================================================================
- THÀNH VIÊN: A (thành viên 3)
- PHỤ TRÁCH : Cây AVL (phép quay, balance factor, range search) + dữ liệu mẫu + Hủy hàng hết hạn, phiếu xuất hủy
- SỐ FILE   : 3
-================================================================================
- CÁCH LÀM:
-  1. Trong thư mục repo, tạo file đúng TÊN như dòng 'BAT DAU FILE' bên dưới.
-  2. Chép toàn bộ nội dung nằm GIỮA dòng BAT DAU và HET FILE vào file đó
-     (không chép hai dòng đánh dấu >>>>>>>>>>).
-  3. Tất cả file đặt chung 1 thư mục (ví dụ src/). Lưu UTF-8.
-  4. Commit + push lên nhánh riêng của mình (xem 0_HuongDan_PhanCong_GitHub.txt).
-================================================================================
-
->>>>>>>>>> BAT DAU FILE: AVLTree.h  (311 dòng) <<<<<<<<<<
 // ============================================================================
 // AVLTree.h - Node va cayVL (cay can bang AVL, khoa = ma mat hang)
 // Ky thuat: phep quay LL/RR/LR/RL, balance factor, range search
-// Nguoi phu trach: A
+// Nguoi phu trach: Ly Tuan Hoang
 // ============================================================================
 #pragma once
 #include <algorithm>
@@ -323,9 +309,6 @@ public:
         return loi.empty();
     }
 };
->>>>>>>>>> HET FILE: AVLTree.h <<<<<<<<<<
-
->>>>>>>>>> BAT DAU FILE: DuLieuMau.h  (59 dòng) <<<<<<<<<<
 // ============================================================================
 // DuLieuMau.h - Nap du lieu mau de demo cay AVL (kich hoat cac phep quay)
 // (Cai dat ham thanh vien cua lop QuanLyKho)
@@ -385,9 +368,6 @@ inline void QuanLyKho::napDuLieuMau() {
     cay.inThongKeQuay();
     tuDongLuu();
 }
->>>>>>>>>> HET FILE: DuLieuMau.h <<<<<<<<<<
-
->>>>>>>>>> BAT DAU FILE: XuatHuy.h  (89 dòng) <<<<<<<<<<
 // ============================================================================
 // XuatHuy.h - Huy hang het han, lap PHIEU XUAT HUY (tach rieng voi phieu xuat ban)
 //             va thong ke hang huy
@@ -477,4 +457,3 @@ inline void QuanLyKho::inThongKeHuy() {
          << "  Tong so luong huy   : " << tongSL << "\n"
          << "  TONG GIA TRI HUY    : " << dinhDangTien(tong) << "\n";
 }
->>>>>>>>>> HET FILE: XuatHuy.h <<<<<<<<<<
