@@ -1,7 +1,7 @@
 // ============================================================================
 // DuLieuMau.h - Nap du lieu mau de demo cay AVL (kich hoat cac phep quay)
 // (Cai dat ham thanh vien cua lop QuanLyKho)
-// Nguoi phu trach: A
+// Nguoi phu trach: Ly Tuan Hoang
 // ============================================================================
 #pragma once
 #include <iostream>
