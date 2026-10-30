@@ -1,7 +1,7 @@
 // ============================================================================
 // AVLTree.h - Node va cayVL (cay can bang AVL, khoa = ma mat hang)
 // Ky thuat: phep quay LL/RR/LR/RL, balance factor, range search
-// Nguoi phu trach: A
+// Nguoi phu trach: LY TUan Hoang
 // ============================================================================
 #pragma once
 #include <algorithm>
