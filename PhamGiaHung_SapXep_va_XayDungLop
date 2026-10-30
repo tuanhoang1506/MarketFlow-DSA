@@ -3,14 +3,6 @@
  PHỤ TRÁCH : Sắp xếp dữ liệu (Quick Sort) + Xây dựng lớp MatHang, QuanLyKho
  SỐ FILE   : 5
 ================================================================================
- CÁCH LÀM:
-  1. Trong thư mục repo, tạo file đúng TÊN như dòng 'BAT DAU FILE' bên dưới.
-  2. Chép toàn bộ nội dung nằm GIỮA dòng BAT DAU và HET FILE vào file đó
-     (không chép hai dòng đánh dấu >>>>>>>>>>).
-  3. Tất cả file đặt chung 1 thư mục (ví dụ src/). Lưu UTF-8.
-  4. Commit + push lên nhánh riêng của mình (xem 0_HuongDan_PhanCong_GitHub.txt).
-================================================================================
-
 >>>>>>>>>> BAT DAU FILE: Date.h  (36 dòng) <<<<<<<<<<
 // ============================================================================
 // Date.h - Struct Date (28 / 10 / 2026)
