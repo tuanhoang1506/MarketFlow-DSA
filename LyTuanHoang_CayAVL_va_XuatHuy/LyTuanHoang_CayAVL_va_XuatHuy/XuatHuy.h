@@ -2,7 +2,7 @@
 // XuatHuy.h - Huy hang het han, lap PHIEU XUAT HUY (tach rieng voi phieu xuat ban)
 //             va thong ke hang huy
 // (Cai dat cac ham thanh vien cua lop QuanLyKho)
-// Nguoi phu trach: A
+// Nguoi phu trach: Ly Tuan Hoang
 // ============================================================================
 #pragma once
 #include <iomanip>
